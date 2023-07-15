@@ -1,9 +1,12 @@
 header,
-.feature-list-content {
+.feature-list-content,
+.fact-card-container,
+.fact-content {
   padding: 20px;
 }
 .nav-container,
-.feature-list-container {
+.feature-list-container,
+.fact-card-container {
   flex-direction: column;
 }
 .nav-title {
@@ -12,4 +15,7 @@ header,
 .feature-list-img-container {
   grid-template-columns: auto;
   gap: 24px;
+}
+.fact-card-container {
+  gap: 10px;
 }

@@ -19,6 +19,11 @@
   border: none;
   cursor: pointer;
 }
+.main {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 3.1rem;
+}
 /* header section */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -50,7 +55,6 @@ header {
 .banner-img {
   width: 100%;
   border-radius: 8px;
-  margin-top: 3.1rem;
 }
 .banner-content {
   max-width: 800px;
@@ -74,10 +78,7 @@ header {
 }
 
 /* main section style */
-main {
-  max-width: 1300px;
-  margin: auto;
-}
+
 .feature-list-container {
   display: flex;
   align-items: center;
@@ -109,4 +110,16 @@ main {
   font-weight: 400;
   margin-top: 24px;
   margin-bottom: 32px;
+}
+
+/* fact section style */
+.fact-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.fact-card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 50px 35px;
+  text-align: center;
 }

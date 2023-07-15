@@ -8,6 +8,11 @@ header {
 .nav-title {
   margin-bottom: 30px;
 }
-.feature-list-content {
+.feature-list-content,
+.fact-content {
   padding: 30px 90px;
+}
+.fact-card-container {
+  padding: 0px 20px;
+  gap: 10px;
 }
