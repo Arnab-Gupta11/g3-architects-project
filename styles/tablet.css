@@ -2,7 +2,8 @@ header {
   padding: 20px;
 }
 .nav-container,
-.feature-list-container {
+.feature-list-container,
+.sponsor-card-container {
   flex-direction: column;
 }
 .nav-title {
@@ -15,4 +16,8 @@ header {
 .fact-card-container {
   padding: 0px 20px;
   gap: 10px;
+}
+.sponsor-card-container {
+  gap: 20px;
+  align-items: center;
 }

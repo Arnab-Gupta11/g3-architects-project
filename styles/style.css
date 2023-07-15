@@ -123,3 +123,18 @@ header {
   padding: 50px 35px;
   text-align: center;
 }
+
+/* sponser section style */
+.sponsor-content {
+  text-align: center;
+  max-width: 542px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.sponsor-card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sponsor-card-container img {
+  width: 165px;
+}

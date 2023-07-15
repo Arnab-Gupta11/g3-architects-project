@@ -6,7 +6,8 @@ header,
 }
 .nav-container,
 .feature-list-container,
-.fact-card-container {
+.fact-card-container,
+.sponsor-card-container {
   flex-direction: column;
 }
 .nav-title {
@@ -18,4 +19,11 @@ header,
 }
 .fact-card-container {
   gap: 10px;
+}
+.sponsor-card-container {
+  gap: 20px;
+  align-items: center;
+}
+.sponsor-card-container img {
+  text-align: center;
 }
